@@ -1,0 +1,368 @@
+!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home · JDM Car</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anuphan:wght@400;600&family=Chakra+Petch:wght@500;600&family=Racing+Sans+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- ===== ส่วนหัว: โลโก้ + เมนู (ใช้ร่วมทุกหน้า) ===== -->
+<header class="site-header">
+  <a class="logo" href="#home">JDM<span>CAR</span></a>
+  <nav>
+    <ul class="menu">
+      <li><a data-page="home" href="#home">Home</a></li>
+      <li><a data-page="story" href="#story">Story</a></li>
+      <li><a data-page="collection" href="#collection">Collection</a></li>
+      <li><a data-page="about" href="#about">About</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <!-- ================= หน้า HOME ================= -->
+  <div class="page" id="home" hidden>
+  <!-- ===== Hero ===== -->
+  <section class="intro">
+    <p class="eyebrow">Japanese Domestic Market</p>
+    <h1>JDM CAR</h1>
+    <p class="lead">เว็บเก็บสะสมรถสปอร์ตญี่ปุ่นตำนาน ตั้งแต่ Fairlady Z ปลายยุค 60 ถึง GT-R และ Supra ยุค 90 ดูรูป รหัสตัวถัง และเรื่องราวของแต่ละคันได้ที่นี่</p>
+    <div class="btn-row">
+      <a class="btn" href="#collection">ดูคอลเลกชัน</a>
+      <a class="btn ghost" href="#story">อ่านเรื่องราว</a>
+    </div>
+  </section>
+
+  <!-- ===== ตัวเลขสรุป ===== -->
+  <ul class="stats">
+    <li><b>9</b> คันในคอลเลกชัน</li>
+    <li><b>4</b> ยี่ห้อ</li>
+    <li><b>1969</b> รุ่นเก่าที่สุด</li>
+    <li><b>1999</b> รุ่นใหม่ที่สุด</li>
+  </ul>
+
+  <!-- ===== รถเด่น ===== -->
+  <section class="featured">
+    <img src="images/01s.jpg" alt="Nissan Skyline GT-R R34 สีเงินลายแถบน้ำเงิน">
+    <div class="featured-text">
+      <p class="eyebrow">รถโปรด · No.01</p>
+      <h2>Skyline GT-R R34</h2>
+      <p>GT-R รุ่นสุดท้ายของสายตัวถัง Skyline ใช้เครื่อง RB26DETT หกสูบเรียงเทอร์โบคู่ ระบบขับสี่ล้ออัจฉริยะ ส่วนคันในรูปเป็นสีเงินพร้อมลายแถบสีน้ำเงิน</p>
+      <ul class="meta">
+        <li><b>ปี</b> 1999</li>
+        <li><b>ยี่ห้อ</b> Nissan</li>
+        <li><b>เครื่อง</b> RB26DETT</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ===== ตัวอย่างจากคอลเลกชัน ===== -->
+  <section class="gallery">
+    <h2 class="section-title">ตัวอย่างจากคอลเลกชัน</h2>
+    <div class="grid">
+      <figure class="card">
+        <img src="images/04s.jpg" alt="Toyota Supra A80">
+        <figcaption>
+          <span class="no">A80</span>
+          <h3>Supra</h3>
+          <p>Toyota · 1993</p>
+        </figcaption>
+      </figure>
+      <figure class="card">
+        <img src="images/05s.jpg" alt="Toyota Sprinter Trueno AE86 สองสี ขาวดำ">
+        <figcaption>
+          <span class="no">AE86</span>
+          <h3>Sprinter Trueno</h3>
+          <p>Toyota · 1983</p>
+        </figcaption>
+      </figure>
+      <figure class="card">
+        <img src="images/07s.jpg" alt="Honda NSX รุ่นแรก สีแดง">
+        <figcaption>
+          <span class="no">NA1</span>
+          <h3>NSX</h3>
+          <p>Honda · 1990</p>
+        </figcaption>
+      </figure>
+    </div>
+    <div class="btn-row">
+      <a class="btn" href="#collection">ดูทั้งหมด 9 คัน</a>
+    </div>
+  </section>
+  </div>
+
+  <!-- ================= หน้า STORY ================= -->
+  <div class="page" id="story" hidden>
+  <!-- ===== บทนำ ===== -->
+  <section class="intro">
+    <p class="eyebrow">Story · 1969–1999</p>
+    <h1>STORY</h1>
+    <p class="lead">JDM ย่อมาจาก Japanese Domestic Market คือรถที่สร้างมาเพื่อขายในญี่ปุ่น ในไทยมักใช้เรียกรถสปอร์ตญี่ปุ่นโดยรวม นี่คือเส้นทางสามสิบปีของรถในคอลเลกชันนี้</p>
+  </section>
+
+  <!-- ===== ไทม์ไลน์ ===== -->
+  <section class="section">
+    <ol class="timeline">
+      <li>
+        <p class="eyebrow">1969 · Nissan</p>
+        <h3>Fairlady Z S30</h3>
+        <p>สปอร์ตสองที่นั่งทรงจมูกยาว ราคาจับต้องได้ ส่งออกไปสหรัฐฯ ในชื่อ Datsun 240Z และทำให้รถสปอร์ตญี่ปุ่นเป็นที่รู้จักทั่วโลก</p>
+      </li>
+      <li>
+        <p class="eyebrow">1983 · Toyota</p>
+        <h3>Sprinter Trueno AE86</h3>
+        <p>ขับหลัง น้ำหนักเบา เครื่องไม่แรงแต่สนุก กลายเป็นรถในตำนานของสายดริฟต์ และโด่งดังต่อจากการ์ตูน Initial D</p>
+      </li>
+      <li>
+        <p class="eyebrow">1990 · Honda</p>
+        <h3>NSX</h3>
+        <p>ซูเปอร์คาร์วางเครื่องกลางลำ ตัวถังอะลูมิเนียมทั้งคัน พิสูจน์ว่ารถสปอร์ตสมรรถนะสูงก็ขับง่ายและใช้งานได้จริง</p>
+      </li>
+      <li>
+        <p class="eyebrow">1991 · Mazda</p>
+        <h3>RX-7 FD3S</h3>
+        <p>เครื่องโรตารี่ 13B-REW เทอร์โบคู่ น้ำหนักเบา ทรงโค้งมนที่หลายคนยกให้เป็นหนึ่งในรถสปอร์ตที่สวยที่สุดของยุค</p>
+      </li>
+      <li>
+        <p class="eyebrow">1993 · Toyota</p>
+        <h3>Supra A80</h3>
+        <p>ใช้เครื่อง 2JZ-GTE หกสูบเรียงเทอร์โบคู่ ที่ขึ้นชื่อเรื่องความทนทานและศักยภาพในการแต่งเพิ่มกำลัง</p>
+      </li>
+      <li>
+        <p class="eyebrow">1996–1999 · ปลายยุคทอง</p>
+        <h3>Chaser · EK9 · S15 · R34</h3>
+        <p>Chaser JZX100 ซีดานสปอร์ต, Civic Type R EK9 ตัวแรงของซีวิค, Silvia S15 สายดริฟต์ และปิดท้ายด้วย Skyline GT-R R34 รุ่นสุดท้ายของสายตัวถัง Skyline GT-R</p>
+      </li>
+    </ol>
+  </section>
+
+  <!-- ===== ทำไมต้อง JDM ===== -->
+  <section class="section">
+    <p class="eyebrow">Why JDM</p>
+    <h2 class="section-title">ทำไมรถกลุ่มนี้ถึงมีเสน่ห์</h2>
+    <div class="text-grid">
+      <div class="panel">
+        <h3>สร้างเพื่อญี่ปุ่น</h3>
+        <p>รถ JDM ผลิตตามกฎและความต้องการของตลาดในประเทศ หลายรุ่นจึงมีสเปกหรือออพชันที่ไม่มีในรุ่นส่งออก</p>
+      </div>
+      <div class="panel">
+        <h3>วิศวกรรมยุคฟองสบู่</h3>
+        <p>ช่วงปลายยุค 80 ถึงยุค 90 ผู้ผลิตลงทุนกับเทคโนโลยีเต็มที่ ทั้งเทอร์โบคู่ ระบบขับสี่ล้อ และตัวถังน้ำหนักเบา</p>
+      </div>
+      <div class="panel">
+        <h3>วัฒนธรรมการแต่ง</h3>
+        <p>จากถนนภูเขา (touge) สู่สนามดริฟต์และงานแต่งเครื่อง ทำให้รถกลุ่มนี้มีชุมชนแฟน ๆ ทั่วโลกจนถึงทุกวันนี้</p>
+      </div>
+    </div>
+    <div class="btn-row">
+      <a class="btn" href="#collection">ดูรถในคอลเลกชัน</a>
+    </div>
+  </section>
+  </div>
+
+  <!-- ================= หน้า COLLECTION ================= -->
+  <div class="page" id="collection" hidden>
+  <!-- ===== บทนำของหน้า ===== -->
+  <section class="intro">
+    <p class="eyebrow">Collection · 9 คัน</p>
+    <h1>JDM CAR</h1>
+    <p class="lead">คอลเลกชันรถสปอร์ตญี่ปุ่นที่รวบรวมไว้ ตั้งแต่ Fairlady Z รุ่นแรกในปลายยุค 60 ไปจนถึง GT-R และ Supra ยุค 90 แต่ละคันมีรหัสตัวถัง เครื่องยนต์ และเรื่องราวของตัวเอง</p>
+    <ul class="filters">
+      <li><a class="active" href="#collection">ทั้งหมด</a></li>
+      <li><a href="#collection">Nissan</a></li>
+      <li><a href="#collection">Toyota</a></li>
+      <li><a href="#collection">Honda</a></li>
+      <li><a href="#collection">Mazda</a></li>
+    </ul>
+  </section>
+
+  <!-- ===== รถเด่น ===== -->
+  <section class="featured">
+    <img src="images/01s.jpg" alt="Nissan Skyline GT-R R34 สีเงินลายแถบน้ำเงิน">
+    <div class="featured-text">
+      <p class="eyebrow">รถโปรด · No.01</p>
+      <h2>Skyline GT-R R34</h2>
+      <p>GT-R รุ่นสุดท้ายของสายตัวถัง Skyline ใช้เครื่อง RB26DETT หกสูบเรียงเทอร์โบคู่ ระบบขับสี่ล้ออัจฉริยะ ส่วนคันในรูปเป็นสีเงินพร้อมลายแถบสีน้ำเงิน</p>
+      <ul class="meta">
+        <li><b>ปี</b> 1999</li>
+        <li><b>ยี่ห้อ</b> Nissan</li>
+        <li><b>เครื่อง</b> RB26DETT</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ===== แกลเลอรี ===== -->
+  <section class="gallery">
+    <h2 class="section-title">ทั้งหมด</h2>
+    <div class="grid">
+      <figure class="card">
+        <img src="images/01s.jpg" alt="Nissan Skyline GT-R R34 สีเงินลายแถบน้ำเงิน">
+        <figcaption>
+          <span class="no">BNR34</span>
+          <h3>Skyline GT-R</h3>
+          <p>Nissan · 1999</p>
+        </figcaption>
+      </figure>
+      <figure class="card">
+        <img src="images/02s.jpg" alt="Nissan Silvia S15 สีดำ">
+        <figcaption>
+          <span class="no">S15</span>
+          <h3>Silvia</h3>
+          <p>Nissan · 1999</p>
+        </figcaption>
+      </figure>
+      <figure class="card">
+        <img src="images/03s.jpg" alt="Nissan Fairlady Z S30 รุ่นแรก">
+        <figcaption>
+          <span class="no">S30</span>
+          <h3>Fairlady Z</h3>
+          <p>Nissan · 1969</p>
+        </figcaption>
+      </figure>
+      <figure class="card">
+        <img src="images/04s.jpg" alt="Toyota Supra A80">
+        <figcaption>
+          <span class="no">A80</span>
+          <h3>Supra</h3>
+          <p>Toyota · 1993</p>
+        </figcaption>
+      </figure>
+      <figure class="card">
+        <img src="images/05s.jpg" alt="Toyota Sprinter Trueno AE86 สองสี ขาวดำ">
+        <figcaption>
+          <span class="no">AE86</span>
+          <h3>Sprinter Trueno</h3>
+          <p>Toyota · 1983</p>
+        </figcaption>
+      </figure>
+      <figure class="card">
+        <img src="images/06s.jpg" alt="Toyota Chaser JZX100 ซีดานสปอร์ต">
+        <figcaption>
+          <span class="no">JZX100</span>
+          <h3>Chaser</h3>
+          <p>Toyota · 1996</p>
+        </figcaption>
+      </figure>
+      <figure class="card">
+        <img src="images/07s.jpg" alt="Honda NSX รุ่นแรก สีแดง">
+        <figcaption>
+          <span class="no">NA1</span>
+          <h3>NSX</h3>
+          <p>Honda · 1990</p>
+        </figcaption>
+      </figure>
+      <figure class="card">
+        <img src="images/08s.jpg" alt="Honda Civic Type R EK9 สีขาว ล้อม่วง">
+        <figcaption>
+          <span class="no">EK9</span>
+          <h3>Civic Type R</h3>
+          <p>Honda · 1997</p>
+        </figcaption>
+      </figure>
+      <figure class="card">
+        <img src="images/09s.jpg" alt="Mazda RX-7 FD3S สีขาว">
+        <figcaption>
+          <span class="no">FD3S</span>
+          <h3>RX-7</h3>
+          <p>Mazda · 1991</p>
+        </figcaption>
+      </figure>
+    </div>
+  </section>
+  </div>
+
+  <!-- ================= หน้า ABOUT ================= -->
+  <div class="page" id="about" hidden>
+  <!-- ===== บทนำ ===== -->
+  <section class="intro">
+    <p class="eyebrow">About · เกี่ยวกับโปรเจกต์</p>
+    <h1>ABOUT</h1>
+    <p class="lead">เว็บไซต์คอลเลกชันรถ JDM ทำขึ้นเพื่อฝึกเขียน HTML และ CSS สำหรับงานออกแบบกราฟิก โดยเน้นการจัดวาง สี ตัวอักษร และการแสดงผลที่ใช้ได้ทั้งมือถือและเดสก์ท็อป</p>
+  </section>
+
+  <!-- ===== ข้อมูลโปรเจกต์ ===== -->
+  <section class="section">
+    <div class="text-grid">
+      <div class="panel">
+        <h3>ผู้จัดทำ</h3>
+        <p>ณัฐวุฒิ ตราชู<br>รหัสนักศึกษา 68061652</p>
+      </div>
+      <div class="panel">
+        <h3>รายวิชา</h3>
+        <p>GAD23867 Coding for Graphic Design</p>
+      </div>
+      <div class="panel">
+        <h3>จุดประสงค์</h3>
+        <p>รวบรวมรถสปอร์ตญี่ปุ่นที่ชอบเป็นคอลเลกชัน พร้อมรหัสตัวถัง ปี และเรื่องราวสั้น ๆ ของแต่ละคัน</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== เทคนิคที่ใช้ ===== -->
+  <section class="section">
+    <p class="eyebrow">Tech</p>
+    <h2 class="section-title">เทคนิคที่ใช้ในเว็บนี้</h2>
+    <ul class="tags">
+      <li>HTML5</li>
+      <li>CSS Variables</li>
+      <li>Flexbox</li>
+      <li>CSS Grid</li>
+      <li>Mobile-first</li>
+      <li>Media Queries</li>
+      <li>clamp()</li>
+    </ul>
+  </section>
+
+  <!-- ===== พาเลตต์สี ===== -->
+  <section class="section">
+    <p class="eyebrow">Design</p>
+    <h2 class="section-title">สีและฟอนต์</h2>
+    <ul class="swatches">
+      <li><span class="sw-paper"></span>Asphalt #0E1015</li>
+      <li><span class="sw-card"></span>Steel #171B24</li>
+      <li><span class="sw-ink"></span>Pearl White #F4F1EA</li>
+      <li><span class="sw-red"></span>Rising Sun #E8112D</li>
+    </ul>
+    <p class="lead" style="margin-top:16px">หัวข้อใช้ Racing Sans One ป้ายสเปกใช้ Chakra Petch และเนื้อหาภาษาไทยใช้ Anuphan</p>
+  </section>
+
+  <section class="section">
+    <div class="btn-row">
+      <a class="btn" href="#collection">ดูคอลเลกชัน</a>
+      <a class="btn ghost" href="#home">กลับหน้าแรก</a>
+    </div>
+  </section>
+  </div>
+
+</main>
+
+<!-- ===== ส่วนท้าย ===== -->
+<footer class="site-footer">
+  <p>[ณัฐวุฒิ ตราชู] · [68061652]</p>
+  <p>GAD23867 Coding for Graphic Design · ใช้เพื่อการเรียนเท่านั้น</p>
+</footer>
+
+<script>
+  /* สลับหน้าตาม #hash: #home #story #collection #about (ไม่มี hash = Home) */
+  const pages = document.querySelectorAll(".page");
+  const links = document.querySelectorAll(".menu a");
+  const titles = { home: "Home", story: "Story", collection: "Collection", about: "About" };
+
+  function show() {
+    let id = location.hash.slice(1);
+    if (!titles[id]) id = "home";
+    pages.forEach(p => p.hidden = p.id !== id);
+    links.forEach(a => a.classList.toggle("active", a.dataset.page === id));
+    document.title = titles[id] + " · JDM Car";
+    window.scrollTo(0, 0);
+  }
+
+  window.addEventListener("hashchange", show);
+  show();
+</script>
+</body>
+</html>
